@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>XMDB</title>
+    </head>
+    <body class="bg-black text-white">
+        <section class="my-5">
+            <div class="xl:max-w-7xl mx-auto grid grid-cols-4">
+                <figure class="col-span-3 px-2 relative">
+                    <div
+                        class="pb-[70px] relative cursor-pointer group/poster-hover-effect"
+                    >
+                        <div class="rounded-xl relative">
+                            <img
+                                src="./assets/images/poster.jpg"
+                                alt="poster"
+                                class="rounded-xl w-full"
+                            />
+                        </div>
+                        <figcaption
+                            class="z-10 absolute bottom-0 left-[190px] flex items-center gap-5"
+                        >
+                            <span
+                                class="w-16 h-16 text-[26px] ring-2 ring-white rounded-full flex items-center justify-center group-hover/poster-hover-effect:text-yellow-500 group-hover/poster-hover-effect:ring-yellow-500 transition-all duration-150"
+                                ><i class="fa-solid fa-play"></i
+                            ></span>
+                            <div>
+                                <h1 class="text-4xl font-semibold">
+                                    Freakier Friday
+                                </h1>
+                                <h2 class="text-lg text-gray-400 font-semibold">
+                                    Watch the Friday
+                                </h2>
+                            </div>
+                            <span class="text-lg text-gray-400 font-semibold"
+                                >2:21</span
+                            >
+                        </figcaption>
+                        <div
+                            class="absolute z-0 h-full w-full left-0 top-0 right-0 overlay-gradiant-gradient"
+                        ></div>
+                        <div
+                            class="bg-black absolute left-0 right-0 top-0 h-full rounded-xl opacity-0 group-hover/poster-hover-effect:opacity-10 transition-all duration-200"
+                        ></div>
+                    </div>
+                    <div
+                        class="relativee z-20 w-[165px] rounded-xl absolute bottom-0 left-5 group/watchlist-backdrop"
+                    >
+                        <img
+                            src="./assets/images/watchlist-poster.jpg"
+                            alt="watchlist-poster"
+                            class="w-full rounded-xl"
+                        />
+                        <span
+                            class="z-10 flex justify-center absolute top-0 left-0 rounded-tl-xl cursor-pointer group/bookmark"
+                        >
+                            <i
+                                class="fa-solid fa-bookmark text-[54px] text-gray-800 opacity-70 group-hover/bookmark:opacity-90 group-hover/bookmark:text-gray-600"
+                            ></i>
+                            <i
+                                class="fa-solid fa-plus pt-2 absolute left-2.5 text-2xl"
+                            ></i>
+                        </span>
+                        <!-- <span class="z-10 flex justify-center absolute top-0 left-0 w-10 h-14 bg-black opacity-50 rounded-tl-xl text-white text-2xl"><i class="fa-solid fa-plus pt-2 cursor-pointer z-10"></i></span> -->
+                        <div
+                            class="z-0 bg-black absolute left-0 right-0 top-0 h-full rounded-xl opacity-0 group-hover/watchlist-backdrop:opacity-10 transition-all duration-200"
+                        ></div>
+                    </div>
+                </figure>
+
+                <div class="col-span-1 px-2">
+                    <h2 class="text-yellow-500 text-2xl font-bold mb-6">
+                        Up next
+                    </h2>
+                    <div class="flex flex-col gap-2 mb-4">
+                        <div class="flex gap-3 bg-zinc-900 p-3 rounded-lg">
+                            <div class="w-[90px]">
+                                <img
+                                    class="rounded-xl w-full"
+                                    src="./assets/images/watchlist-poster.jpg"
+                                    alt="watchlist-poster"
+                                />
+                            </div>
+                            <a href="#" class="group/upcoming-list">
+                                <div class="flex items-center gap-3">
+                                    <span
+                                        class="w-8 h-8 text-sm ring-2 ring-white rounded-full flex items-center justify-center group-hover/upcoming-list:text-yellow-500 group-hover/upcoming-list:ring-yellow-500 transition-all duration-150"
+                                        ><i class="fa-solid fa-play"></i
+                                    ></span>
+                                    <span>2:11</span>
+                                </div>
+                                <div class="flex flex-col mt-3 leading-5">
+                                    <h4>Alien: Earth</h4>
+                                    <h4 class="text-gray-400">
+                                        Watch the Trailer
+                                    </h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="flex gap-3 bg-zinc-900 p-3 rounded-lg">
+                            <div class="w-[90px]">
+                                <img
+                                    class="rounded-xl w-full"
+                                    src="./assets/images/watchlist-poster.jpg"
+                                    alt="watchlist-poster"
+                                />
+                            </div>
+                            <a href="#" class="group/upcoming-list">
+                                <div class="flex items-center gap-3">
+                                    <span
+                                        class="w-8 h-8 text-sm ring-2 ring-white rounded-full flex items-center justify-center group-hover/upcoming-list:text-yellow-500 group-hover/upcoming-list:ring-yellow-500 transition-all duration-150"
+                                        ><i class="fa-solid fa-play"></i
+                                    ></span>
+                                    <span>2:11</span>
+                                </div>
+                                <div class="flex flex-col mt-3 leading-5">
+                                    <h4>Alien: Earth</h4>
+                                    <h4 class="text-gray-400">
+                                        Watch the Trailer
+                                    </h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="flex gap-3 bg-zinc-900 p-3 rounded-lg">
+                            <div class="w-[90px]">
+                                <img
+                                    class="rounded-xl w-full"
+                                    src="./assets/images/watchlist-poster.jpg"
+                                    alt="watchlist-poster"
+                                />
+                            </div>
+                            <a href="#" class="group/upcoming-list">
+                                <div class="flex items-center gap-3">
+                                    <span
+                                        class="w-8 h-8 text-sm ring-2 ring-white rounded-full flex items-center justify-center group-hover/upcoming-list:text-yellow-500 group-hover/upcoming-list:ring-yellow-500 transition-all duration-150"
+                                        ><i class="fa-solid fa-play"></i
+                                    ></span>
+                                    <span>2:11</span>
+                                </div>
+                                <div class="flex flex-col mt-3 leading-5">
+                                    <h4>Alien: Earth</h4>
+                                    <h4 class="text-gray-400">
+                                        Watch the Trailer
+                                    </h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <a
+                        href="#"
+                        class="hover:text-yellow-500 text-xl font-bold cursor-pointer"
+                        >Browse trailers
+                        <span class="ml-1 text-base"
+                            ><i class="fa-solid fa-angle-right"></i></span
+                    ></a>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
