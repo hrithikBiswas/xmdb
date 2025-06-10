@@ -196,78 +196,163 @@
                     <h2 class="text-yellow-500 text-2xl font-bold mb-6">
                         Latest Trailers
                     </h2>
-                    <div
-                        class="flex flex-wrap gap-x-4 gap-y-6"
-                    >
+                    <div class="flex flex-wrap gap-x-4 gap-y-6">
                         <div class="rounded">
-                            <div class="max-w-[200px]">
+                            <div class="max-w-[200px] relative group/watchlist-backdrop cursor-pointer">
                                 <img
-                                class="rounded w-full mb-3"
-                                src="./assets/images/watchlist-poster.jpg"
-                                alt="watchlist-poster"
-                            />
+                                    class="rounded w-full mb-3"
+                                    src="./assets/images/watchlist-poster.jpg"
+                                    alt="watchlist-poster"
+                                />
+                                <button
+                                    class="z-10 cursor-pointer absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-12 h-12 text-xl ring-2 ring-white rounded-full flex items-center justify-center hover:text-yellow-500 hover:ring-yellow-500 transition-all duration-150"
+                                    ><i class="fa-solid fa-play"></i
+                                ></button>
+                                <div
+                                class="z-0 bg-black absolute left-0 right-0 top-0 h-full rounded-xl opacity-0 group-hover/watchlist-backdrop:opacity-20 transition-all duration-200"
+                            ></div>
                             </div>
                             <div class="px-2">
                                 <div class="flex items-center gap-x-4">
-                                <span class="text-gray-400"><i class="fa-solid fa-star text-yellow-500"></i> 8.3</span>
-                                <span class="py-1 px-4 cursor-pointer rounded-sm text-blue-400 hover:bg-gray-800 transition-all duration-200"><i class="fa-regular fa-star"></i></span>
-                            </div>
-                            <h4 class="hover:underline cursor-pointer mb-5">1. Dept. Q</h4>
-                            <button class="bg-gray-800 text-blue-400 cursor-pointer rounded-full flex w-full py-1.5 items-center justify-center hover:bg-gray-700/70 transition-all duration-200"><i class="fa-solid fa-plus mr-2"></i> Watchlist</button>
-                            </div>
-                        </div>
-                        <div class="rounded">
-                            <div class="max-w-[200px]">
-                                <img
-                                class="rounded w-full mb-3"
-                                src="./assets/images/watchlist-poster.jpg"
-                                alt="watchlist-poster"
-                            />
-                            </div>
-                            <div class="px-2">
-                                <div class="flex items-center gap-x-4">
-                                <span class="text-gray-400"><i class="fa-solid fa-star text-yellow-500"></i> 8.3</span>
-                                <span class="py-1 px-4 cursor-pointer rounded-sm text-blue-400 hover:bg-gray-800 transition-all duration-200"><i class="fa-regular fa-star"></i></span>
-                            </div>
-                            <h4 class="hover:underline cursor-pointer mb-5">1. Dept. Q</h4>
-                            <button class="bg-gray-800 text-blue-400 cursor-pointer rounded-full flex w-full py-1.5 items-center justify-center hover:bg-gray-700/70 transition-all duration-200"><i class="fa-solid fa-plus mr-2"></i> Watchlist</button>
+                                    <span class="text-gray-400"
+                                        ><i
+                                            class="fa-solid fa-star text-yellow-500"
+                                        ></i>
+                                        8.3</span
+                                    >
+                                    <span
+                                        class="py-1 px-4 cursor-pointer rounded-sm text-blue-400 hover:bg-gray-800 transition-all duration-200"
+                                        ><i class="fa-regular fa-star"></i
+                                    ></span>
+                                </div>
+                                <h4 class="hover:underline cursor-pointer mb-5">
+                                    1. Dept. Q
+                                </h4>
+                                <button
+                                    class="bg-gray-800 text-blue-400 cursor-pointer rounded-full flex w-full py-1.5 items-center justify-center hover:bg-gray-700/70 transition-all duration-200"
+                                >
+                                    <i class="fa-solid fa-plus mr-2"></i>
+                                    Watchlist
+                                </button>
                             </div>
                         </div>
                         <div class="rounded">
-                            <div class="max-w-[200px]">
+                            <div class="max-w-[200px] relative group/watchlist-backdrop cursor-pointer">
                                 <img
-                                class="rounded w-full mb-3"
-                                src="./assets/images/watchlist-poster.jpg"
-                                alt="watchlist-poster"
-                            />
+                                    class="rounded w-full mb-3"
+                                    src="./assets/images/watchlist-poster.jpg"
+                                    alt="watchlist-poster"
+                                />
+                                <button
+                                    class="z-10 cursor-pointer absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-12 h-12 text-xl ring-2 ring-white rounded-full flex items-center justify-center hover:text-yellow-500 hover:ring-yellow-500 transition-all duration-150"
+                                    ><i class="fa-solid fa-play"></i
+                                ></button>
+                                <div
+                                class="z-0 bg-black absolute left-0 right-0 top-0 h-full rounded-xl opacity-0 group-hover/watchlist-backdrop:opacity-20 transition-all duration-200"
+                            ></div>
                             </div>
                             <div class="px-2">
                                 <div class="flex items-center gap-x-4">
-                                <span class="text-gray-400"><i class="fa-solid fa-star text-yellow-500"></i> 8.3</span>
-                                <span class="py-1 px-4 cursor-pointer rounded-sm text-blue-400 hover:bg-gray-800 transition-all duration-200"><i class="fa-regular fa-star"></i></span>
-                            </div>
-                            <h4 class="hover:underline cursor-pointer mb-5">1. Dept. Q</h4>
-                            <button class="bg-gray-800 text-blue-400 cursor-pointer rounded-full flex w-full py-1.5 items-center justify-center hover:bg-gray-700/70 transition-all duration-200"><i class="fa-solid fa-plus mr-2"></i> Watchlist</button>
+                                    <span class="text-gray-400"
+                                        ><i
+                                            class="fa-solid fa-star text-yellow-500"
+                                        ></i>
+                                        8.3</span
+                                    >
+                                    <span
+                                        class="py-1 px-4 cursor-pointer rounded-sm text-blue-400 hover:bg-gray-800 transition-all duration-200"
+                                        ><i class="fa-regular fa-star"></i
+                                    ></span>
+                                </div>
+                                <h4 class="hover:underline cursor-pointer mb-5">
+                                    1. Dept. Q
+                                </h4>
+                                <button
+                                    class="bg-gray-800 text-blue-400 cursor-pointer rounded-full flex w-full py-1.5 items-center justify-center hover:bg-gray-700/70 transition-all duration-200"
+                                >
+                                    <i class="fa-solid fa-plus mr-2"></i>
+                                    Watchlist
+                                </button>
                             </div>
                         </div>
                         <div class="rounded">
-                            <div class="max-w-[200px]">
+                            <div class="max-w-[200px] relative group/watchlist-backdrop cursor-pointer">
                                 <img
-                                class="rounded w-full mb-3"
-                                src="./assets/images/watchlist-poster.jpg"
-                                alt="watchlist-poster"
-                            />
+                                    class="rounded w-full mb-3"
+                                    src="./assets/images/watchlist-poster.jpg"
+                                    alt="watchlist-poster"
+                                />
+                                <button
+                                    class="z-10 cursor-pointer absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-12 h-12 text-xl ring-2 ring-white rounded-full flex items-center justify-center hover:text-yellow-500 hover:ring-yellow-500 transition-all duration-150"
+                                    ><i class="fa-solid fa-play"></i
+                                ></button>
+                                <div
+                                class="z-0 bg-black absolute left-0 right-0 top-0 h-full rounded-xl opacity-0 group-hover/watchlist-backdrop:opacity-20 transition-all duration-200"
+                            ></div>
                             </div>
                             <div class="px-2">
                                 <div class="flex items-center gap-x-4">
-                                <span class="text-gray-400"><i class="fa-solid fa-star text-yellow-500"></i> 8.3</span>
-                                <span class="py-1 px-4 cursor-pointer rounded-sm text-blue-400 hover:bg-gray-800 transition-all duration-200"><i class="fa-regular fa-star"></i></span>
-                            </div>
-                            <h4 class="hover:underline cursor-pointer mb-5">1. Dept. Q</h4>
-                            <button class="bg-gray-800 text-blue-400 cursor-pointer rounded-full flex w-full py-1.5 items-center justify-center hover:bg-gray-700/70 transition-all duration-200"><i class="fa-solid fa-plus mr-2"></i> Watchlist</button>
+                                    <span class="text-gray-400"
+                                        ><i
+                                            class="fa-solid fa-star text-yellow-500"
+                                        ></i>
+                                        8.3</span
+                                    >
+                                    <span
+                                        class="py-1 px-4 cursor-pointer rounded-sm text-blue-400 hover:bg-gray-800 transition-all duration-200"
+                                        ><i class="fa-regular fa-star"></i
+                                    ></span>
+                                </div>
+                                <h4 class="hover:underline cursor-pointer mb-5">
+                                    1. Dept. Q
+                                </h4>
+                                <button
+                                    class="bg-gray-800 text-blue-400 cursor-pointer rounded-full flex w-full py-1.5 items-center justify-center hover:bg-gray-700/70 transition-all duration-200"
+                                >
+                                    <i class="fa-solid fa-plus mr-2"></i>
+                                    Watchlist
+                                </button>
                             </div>
                         </div>
-                        
+                        <div class="rounded">
+                            <div class="max-w-[200px] relative group/watchlist-backdrop cursor-pointer">
+                                <img
+                                    class="rounded w-full mb-3"
+                                    src="./assets/images/watchlist-poster.jpg"
+                                    alt="watchlist-poster"
+                                />
+                                <button
+                                    class="z-10 cursor-pointer absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-12 h-12 text-xl ring-2 ring-white rounded-full flex items-center justify-center hover:text-yellow-500 hover:ring-yellow-500 transition-all duration-150"
+                                    ><i class="fa-solid fa-play"></i
+                                ></button>
+                                <div
+                                class="z-0 bg-black absolute left-0 right-0 top-0 h-full rounded-xl opacity-0 group-hover/watchlist-backdrop:opacity-20 transition-all duration-200"
+                            ></div>
+                            </div>
+                            <div class="px-2">
+                                <div class="flex items-center gap-x-4">
+                                    <span class="text-gray-400"
+                                        ><i
+                                            class="fa-solid fa-star text-yellow-500"
+                                        ></i>
+                                        8.3</span
+                                    >
+                                    <span
+                                        class="py-1 px-4 cursor-pointer rounded-sm text-blue-400 hover:bg-gray-800 transition-all duration-200"
+                                        ><i class="fa-regular fa-star"></i
+                                    ></span>
+                                </div>
+                                <h4 class="hover:underline cursor-pointer mb-5">
+                                    1. Dept. Q
+                                </h4>
+                                <button
+                                    class="bg-gray-800 text-blue-400 cursor-pointer rounded-full flex w-full py-1.5 items-center justify-center hover:bg-gray-700/70 transition-all duration-200"
+                                >
+                                    <i class="fa-solid fa-plus mr-2"></i>
+                                    Watchlist
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

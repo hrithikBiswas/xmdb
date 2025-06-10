@@ -10,10 +10,4 @@
             rgb(0, 0, 0) 100%
         );
     }
-
-    .custom:hover{
-        color: red;
-    }
 }
-
-/* background: linear-gradient(transparent 0%, transparent 65%, rgba(0, 0, 0, 0.7) 77%, rgb(0, 0, 0) 85%, rgb(0, 0, 0) 100%); */
