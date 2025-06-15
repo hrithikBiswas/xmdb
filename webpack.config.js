@@ -83,7 +83,19 @@ const config = {
     },
     plugins: [
         new HtmlWebpackPlugin({
+            filename: 'index.html',
             template: './src/index.html',
+            chunks: ['tailwind', 'main', 'fontAwesome'],
+            inject: 'body',
+            minify: {
+                collapseWhitespace: true, // html minify method 02
+                removeComments: true,
+            },
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'single.html',
+            template: './src/single.html',
+            chunks: ['tailwind', 'main', 'fontAwesome'],
             inject: 'body',
             minify: {
                 collapseWhitespace: true, // html minify method 02

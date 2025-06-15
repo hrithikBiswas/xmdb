@@ -10,4 +10,16 @@
             rgb(0, 0, 0) 100%
         );
     }
+    .single-page-bg-image {
+        background-image: url("../images/bg-img.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+@layer components {
+    .scoring-ring {
+        @apply absolute w-[72px] top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2;
+    }
 }
