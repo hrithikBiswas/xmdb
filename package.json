@@ -1,6 +1,6 @@
 {
   "name": "xmdb",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Empty project.",
   "private": true,
   "keywords": [],
@@ -9,7 +9,8 @@
   "scripts": {
     "clean": "rm dist/bundle.js",
     "dev": "webpack serve",
-    "build": "webpack"
+    "build": "webpack",
+    "release": "standard-version"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.8",
